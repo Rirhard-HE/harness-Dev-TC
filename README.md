@@ -21,6 +21,7 @@ codex
 ## 当前仓库内容
 
 - `AGENTS.md`：可随仓库迁移的自包含基础规则。
+- `.agents/skills/reasoning-review-memory/SKILL.md`：复杂任务推理、负向审查和项目 Memory 沉淀流程。
 - `Harness-跨设备迁移与重建手册-V1.0.md`：迁移、重建和验收规范。
 - `README.md`：克隆与验证说明。
 
@@ -29,7 +30,7 @@ codex
 克隆本仓库可以恢复基础规则，但以下内容尚未进入仓库，因此不能宣称完整 Harness 已恢复：
 
 - 原项目的 `memory/00` 至 `09`；
-- `reasoning-review-memory` 自定义 Skill；
+- 其他尚未迁移的自定义 Skill；
 - 插件安装状态和第三方账号授权；
 - Hooks、设备配置、API Key、Cookie、Token和登录态；
 - 原项目附件、截图、代码和完整业务上下文。
@@ -41,4 +42,5 @@ codex
 - 阶段 A：仓库与当前在线环境只读盘点已完成。
 - 阶段 B：基础规则已写入；MIG-001 至 MIG-005 静态验收通过。
 - 动态验收：需要从仓库根目录启动一个新的 Codex 运行。
-- 阶段 C 至 F：尚未执行。
+- 阶段 C：`reasoning-review-memory` 已创建、校验并同步到仓库；新会话触发尚待验证。
+- 阶段 D 至 F：尚未执行。
