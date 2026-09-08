@@ -43,4 +43,5 @@ codex
 - 阶段 B：基础规则已写入；MIG-001 至 MIG-005 静态验收通过。
 - 动态验收：需要从仓库根目录启动一个新的 Codex 运行。
 - 阶段 C：`reasoning-review-memory` 已创建、校验并同步到仓库；新会话触发尚待验证。
-- 阶段 D 至 F：尚未执行。
+- 阶段 D：手册范围内的 Browser、Product Design、GitHub、Plugin Management、Figma、Deep Research、Sites、Visualize 及文档交付能力已安装或由当前环境预装；Figma 与 GitHub 连接及最小只读调用验证通过。未为测试创建外部文件、站点或其他数据，外部写入仍需任务级授权。
+- 阶段 E 至 F：尚未执行。
