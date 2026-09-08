@@ -24,12 +24,13 @@ codex
 - `.agents/skills/reasoning-review-memory/SKILL.md`：复杂任务推理、负向审查和项目 Memory 沉淀流程。
 - `Harness-跨设备迁移与重建手册-V1.0.md`：迁移、重建和验收规范。
 - `README.md`：克隆与验证说明。
+- `memory/00-项目记忆索引.md` 至 `03-历史决策.md`：阶段 E 最小 Memory 骨架；不包含未经确认的原项目业务事实。
 
 ## 当前边界
 
 克隆本仓库可以恢复基础规则，但以下内容尚未进入仓库，因此不能宣称完整 Harness 已恢复：
 
-- 原项目的 `memory/00` 至 `09`；
+- 原项目真实的 `memory/00` 至 `09` 内容；当前仓库仅建立了 `00` 至 `03` 的最小骨架；
 - 其他尚未迁移的自定义 Skill；
 - 插件安装状态和第三方账号授权；
 - Hooks、设备配置、API Key、Cookie、Token和登录态；
@@ -44,4 +45,5 @@ codex
 - 动态验收：需要从仓库根目录启动一个新的 Codex 运行。
 - 阶段 C：`reasoning-review-memory` 已创建、校验并同步到仓库；新会话触发尚待验证。
 - 阶段 D：手册范围内的 Browser、Product Design、GitHub、Plugin Management、Figma、Deep Research、Sites、Visualize 及文档交付能力已安装或由当前环境预装；Figma 与 GitHub 连接及最小只读调用验证通过。未为测试创建外部文件、站点或其他数据，外部写入仍需任务级授权。
-- 阶段 E 至 F：尚未执行。
+- 阶段 E：在只有迁移手册、没有原项目完整文件夹的条件下，已建立 `memory/00` 至 `03` 最小结构；`04` 至 `09` 保持未建立，真实业务上下文、历史决策与领域 Memory 仍待原始资料恢复。
+- 阶段 F：尚未执行。
